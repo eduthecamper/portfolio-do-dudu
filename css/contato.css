@@ -1,0 +1,73 @@
+body{
+    background-color: #0D1117 ;
+    font-family: "Offside", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 2px;
+    max-width: 100%;
+    overflow-x: hidden; /* Bloqueia a barra horizontal */
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;    
+}
+
+p{
+    color: #ffffff;
+    line-height: 1.2;
+
+}
+
+.cabeca {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  /* Distribui espaço igual entre eles */
+    font-size: 20px;
+}
+
+.item {
+    margin: 10px;
+    background: #0D1724;
+    color: white;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+
+#logo{
+    width: 150px;
+    height: auto;
+}
+
+.corpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+        gap: 60px;
+}
+
+
+
+.colorida {
+    background: linear-gradient(90deg, #0281a0, #01C5ED , #0281a0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .img {
+    margin-top: 20%;
+    padding: 20px;
+    width: 350px;
+    height: 350px;
+  }
+
+  .imgzap {
+    margin-top: 20%;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+  }
+
+  
